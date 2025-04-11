@@ -13,7 +13,7 @@ import Footer from "../components/Footer";
 import Body from "../components/Body";
 import Sidebar from "../components/Sidebar";
 import ThemeToggle from "../components/Toogle";
-import Login from './Login'; // ✅ deixe apenas essa importação
+import Login from './Login'; 
 
 export default function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
